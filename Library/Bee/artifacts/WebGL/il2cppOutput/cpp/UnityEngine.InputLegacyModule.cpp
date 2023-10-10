@@ -1,13 +1,7 @@
 ﻿#include "pch-cpp.hpp"
 
-#ifndef _MSC_VER
-# include <alloca.h>
-#else
-# include <malloc.h>
-#endif
 
 
-#include <limits>
 
 
 
@@ -44,6 +38,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE0C5D7D5DD5695D97E4EDCB4705E9F1AF10AF695
 IL2CPP_EXTERN_C String_t* _stringLiteralE69C6A3A0BD2A9030375061C78273B2EABD411D0;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m276DF1835C1D690AEE5DE26E790EDAE0A0950B91_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_mCB133C85E3AF38797FF1DCDE7EC47CC379FF2CB0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MarshalledUnityObject_Marshal_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC769AC9B1F78104592B6980A50CD4B88DD8DC603_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -316,6 +311,10 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString;
 	String_t* ___FalseString;
 };
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
 struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields
 {
 	float ___Epsilon;
@@ -474,9 +473,11 @@ struct DisplayU5BU5D_tAD77D7EE2B839E3EDA0D1C0028B64F867F400C7F  : public Runtime
 };
 
 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_Marshal_TisRuntimeObject_m286B34400A212037E8EBD53DBFEAD7D23CDE8051_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t657A531CD05C008B73C5D0F163CA4C219E650EBD Func_1_Invoke_m1D6B3CC8B29B304CD3DFCEF6E85A541051A1155F_gshared_inline (Func_1_tF5F7F5DCF1679E08B2536581A6E1EEF5529155C9* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 KeyValuePair_2_get_Value_mCB133C85E3AF38797FF1DCDE7EC47CC379FF2CB0_gshared_inline (KeyValuePair_2_t657A531CD05C008B73C5D0F163CA4C219E650EBD* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Key_m276DF1835C1D690AEE5DE26E790EDAE0A0950B91_gshared_inline (KeyValuePair_2_t657A531CD05C008B73C5D0F163CA4C219E650EBD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8_gshared (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
@@ -495,8 +496,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_altitudeAngle_m26DEF010E2CDC2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_azimuthAngle_m2F11532183492E608922A2F9D9EC9AC31D34F490 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_radius_m5BC9C50DABBB17B07742BAFC6CC36A6736AE7960 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry_Injected_m4A9EA285FB7B24B7B3D894E7EE997B41ED302DEF (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry2D_Injected_m2620821FE8CB793C314AAE43E3B4C7BEAE5D4C9E (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) ;
+inline intptr_t MarshalledUnityObject_Marshal_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC769AC9B1F78104592B6980A50CD4B88DD8DC603_inline (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_obj, const RuntimeMethod* method)
+{
+	return ((  intptr_t (*) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, const RuntimeMethod*))MarshalledUnityObject_Marshal_TisRuntimeObject_m286B34400A212037E8EBD53DBFEAD7D23CDE8051_gshared_inline)(___0_obj, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry_Injected_mF0CCC8B28FA39583286BC4E4513E2339D9093971 (intptr_t ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry2D_Injected_mABCD0C512C6726B8D1AB33C1DC1C1A6523B5EF0B (intptr_t ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputUnsafeUtility_GetAxis_m034889C00C914572B94F091E8EC646E86408A29F (String_t* ___0_axisName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputUnsafeUtility_GetAxisRaw_m0EBF75200CDA664FCCD51BDB4C8C8798CDD6097B (String_t* ___0_axisName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputUnsafeUtility_GetButtonDown_mB35B46B92DA28196820B996E2420E5E320088EE4 (String_t* ___0_buttonName, const RuntimeMethod* method) ;
@@ -563,6 +568,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+inline intptr_t MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8 (RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	return ((  intptr_t (*) (RuntimeObject*, const RuntimeMethod*))MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8_gshared)(___0_obj, method);
+}
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -978,41 +987,57 @@ IL2CPP_EXTERN_C  float Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB6
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry_m79A654495BD2C09623E9067BCC70D23A0DA3BF58 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_Marshal_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC769AC9B1F78104592B6980A50CD4B88DD8DC603_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_cam;
-		float L_1 = ___2_distance;
-		int32_t L_2 = ___3_layerMask;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = CameraRaycastHelper_RaycastTry_Injected_m4A9EA285FB7B24B7B3D894E7EE997B41ED302DEF(L_0, (&___1_ray), L_1, L_2, NULL);
-		return L_3;
+		intptr_t L_1;
+		L_1 = MarshalledUnityObject_Marshal_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC769AC9B1F78104592B6980A50CD4B88DD8DC603_inline(L_0, MarshalledUnityObject_Marshal_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC769AC9B1F78104592B6980A50CD4B88DD8DC603_RuntimeMethod_var);
+		float L_2 = ___2_distance;
+		int32_t L_3 = ___3_layerMask;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = CameraRaycastHelper_RaycastTry_Injected_mF0CCC8B28FA39583286BC4E4513E2339D9093971(L_1, (&___1_ray), L_2, L_3, NULL);
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry2D_m132832B9171CD030AD231A63BF70D1226ED1F373 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_Marshal_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC769AC9B1F78104592B6980A50CD4B88DD8DC603_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_cam;
-		float L_1 = ___2_distance;
-		int32_t L_2 = ___3_layerMask;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = CameraRaycastHelper_RaycastTry2D_Injected_m2620821FE8CB793C314AAE43E3B4C7BEAE5D4C9E(L_0, (&___1_ray), L_1, L_2, NULL);
-		return L_3;
+		intptr_t L_1;
+		L_1 = MarshalledUnityObject_Marshal_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC769AC9B1F78104592B6980A50CD4B88DD8DC603_inline(L_0, MarshalledUnityObject_Marshal_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mC769AC9B1F78104592B6980A50CD4B88DD8DC603_RuntimeMethod_var);
+		float L_2 = ___2_distance;
+		int32_t L_3 = ___3_layerMask;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = CameraRaycastHelper_RaycastTry2D_Injected_mABCD0C512C6726B8D1AB33C1DC1C1A6523B5EF0B(L_1, (&___1_ray), L_2, L_3, NULL);
+		return L_4;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry_Injected_m4A9EA285FB7B24B7B3D894E7EE997B41ED302DEF (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry_Injected_mF0CCC8B28FA39583286BC4E4513E2339D9093971 (intptr_t ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
 {
-	typedef GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*CameraRaycastHelper_RaycastTry_Injected_m4A9EA285FB7B24B7B3D894E7EE997B41ED302DEF_ftn) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*, float, int32_t);
-	static CameraRaycastHelper_RaycastTry_Injected_m4A9EA285FB7B24B7B3D894E7EE997B41ED302DEF_ftn _il2cpp_icall_func;
+	typedef GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*CameraRaycastHelper_RaycastTry_Injected_mF0CCC8B28FA39583286BC4E4513E2339D9093971_ftn) (intptr_t, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*, float, int32_t);
+	static CameraRaycastHelper_RaycastTry_Injected_mF0CCC8B28FA39583286BC4E4513E2339D9093971_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (CameraRaycastHelper_RaycastTry_Injected_m4A9EA285FB7B24B7B3D894E7EE997B41ED302DEF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CameraRaycastHelper::RaycastTry_Injected(UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32)");
+	_il2cpp_icall_func = (CameraRaycastHelper_RaycastTry_Injected_mF0CCC8B28FA39583286BC4E4513E2339D9093971_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CameraRaycastHelper::RaycastTry_Injected(System.IntPtr,UnityEngine.Ray&,System.Single,System.Int32)");
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* icallRetVal = _il2cpp_icall_func(___0_cam, ___1_ray, ___2_distance, ___3_layerMask);
 	return icallRetVal;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry2D_Injected_m2620821FE8CB793C314AAE43E3B4C7BEAE5D4C9E (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry2D_Injected_mABCD0C512C6726B8D1AB33C1DC1C1A6523B5EF0B (intptr_t ___0_cam, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___1_ray, float ___2_distance, int32_t ___3_layerMask, const RuntimeMethod* method) 
 {
-	typedef GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*CameraRaycastHelper_RaycastTry2D_Injected_m2620821FE8CB793C314AAE43E3B4C7BEAE5D4C9E_ftn) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*, float, int32_t);
-	static CameraRaycastHelper_RaycastTry2D_Injected_m2620821FE8CB793C314AAE43E3B4C7BEAE5D4C9E_ftn _il2cpp_icall_func;
+	typedef GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*CameraRaycastHelper_RaycastTry2D_Injected_mABCD0C512C6726B8D1AB33C1DC1C1A6523B5EF0B_ftn) (intptr_t, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*, float, int32_t);
+	static CameraRaycastHelper_RaycastTry2D_Injected_mABCD0C512C6726B8D1AB33C1DC1C1A6523B5EF0B_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (CameraRaycastHelper_RaycastTry2D_Injected_m2620821FE8CB793C314AAE43E3B4C7BEAE5D4C9E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CameraRaycastHelper::RaycastTry2D_Injected(UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32)");
+	_il2cpp_icall_func = (CameraRaycastHelper_RaycastTry2D_Injected_mABCD0C512C6726B8D1AB33C1DC1C1A6523B5EF0B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CameraRaycastHelper::RaycastTry2D_Injected(System.IntPtr,UnityEngine.Ray&,System.Single,System.Int32)");
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* icallRetVal = _il2cpp_icall_func(___0_cam, ___1_ray, ___2_distance, ___3_layerMask);
 	return icallRetVal;
 }
@@ -2774,6 +2799,41 @@ IL_0035:
 	{
 		bool L_10 = V_0;
 		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_Marshal_TisRuntimeObject_m286B34400A212037E8EBD53DBFEAD7D23CDE8051_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	bool V_0 = false;
+	intptr_t V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_001f;
+	}
+
+IL_0016:
+	{
+		RuntimeObject* L_2 = ___0_obj;
+		intptr_t L_3;
+		L_3 = MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8(L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		V_1 = L_3;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t657A531CD05C008B73C5D0F163CA4C219E650EBD Func_1_Invoke_m1D6B3CC8B29B304CD3DFCEF6E85A541051A1155F_gshared_inline (Func_1_tF5F7F5DCF1679E08B2536581A6E1EEF5529155C9* __this, const RuntimeMethod* method) 

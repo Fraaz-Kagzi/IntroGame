@@ -30,6 +30,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Physics2D();
 	RegisterModule_Physics2D();
 
+	void RegisterModule_Properties();
+	RegisterModule_Properties();
+
 	void RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
 	RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
 

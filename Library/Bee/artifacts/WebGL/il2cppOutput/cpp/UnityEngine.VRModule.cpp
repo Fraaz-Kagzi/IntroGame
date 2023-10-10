@@ -1,13 +1,7 @@
 ﻿#include "pch-cpp.hpp"
 
-#ifndef _MSC_VER
-# include <alloca.h>
-#else
-# include <malloc.h>
-#endif
 
 
-#include <limits>
 
 
 
@@ -22,6 +16,8 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 
 IL2CPP_EXTERN_C RuntimeClass* XRDevice_tD076A68EFE413B3EEEEA362BE0364A488B58F194_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteralA7F00519435FC33A7E48F0FCF6CB6D9B257C0DAA;
+IL2CPP_EXTERN_C const RuntimeMethod* MarshalledUnityObject_MarshalNullCheck_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_TisArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_m7ED99139D029E1CBC5F8877FC79727793228D244_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -172,6 +168,10 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString;
 	String_t* ___FalseString;
 };
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 {
 	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
@@ -183,12 +183,29 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 #endif
 
 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNullCheck_TisRuntimeObject_TisRuntimeObject_m5B85D44AFDA373770C5D32C4E251B01E6EF7AA79_gshared_inline (RuntimeObject* ___0_obj, String_t* ___1_parameterName, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarshalledUnityObject_ThrowException_TisRuntimeObject_mC3DBAC17F28D80CBB0AB1758B97387C57ACD9D2B_gshared (String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8_gshared (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 
+inline intptr_t MarshalledUnityObject_MarshalNullCheck_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_TisArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_m7ED99139D029E1CBC5F8877FC79727793228D244_inline (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_obj, String_t* ___1_parameterName, const RuntimeMethod* method)
+{
+	return ((  intptr_t (*) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, String_t*, const RuntimeMethod*))MarshalledUnityObject_MarshalNullCheck_TisRuntimeObject_TisRuntimeObject_m5B85D44AFDA373770C5D32C4E251B01E6EF7AA79_gshared_inline)(___0_obj, ___1_parameterName, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice_DisableAutoXRCameraTracking_Injected_mFA485CB637DF2D2908DCEC6D92FE873214515FEE (intptr_t ___0_camera, bool ___1_disabled, const RuntimeMethod* method) ;
 inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, String_t* ___0_obj, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, String_t*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
 }
+inline void MarshalledUnityObject_ThrowException_TisRuntimeObject_mC3DBAC17F28D80CBB0AB1758B97387C57ACD9D2B (String_t* ___0_message, const RuntimeMethod* method)
+{
+	((  void (*) (String_t*, const RuntimeMethod*))MarshalledUnityObject_ThrowException_TisRuntimeObject_mC3DBAC17F28D80CBB0AB1758B97387C57ACD9D2B_gshared)(___0_message, method);
+}
+inline intptr_t MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8 (RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	return ((  intptr_t (*) (RuntimeObject*, const RuntimeMethod*))MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8_gshared)(___0_obj, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -204,11 +221,21 @@ inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Ac
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice_DisableAutoXRCameraTracking_m1243FCAD2AC9C4D5C2E551255A1B2BA266E12A52 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, bool ___1_disabled, const RuntimeMethod* method) 
 {
-	typedef void (*XRDevice_DisableAutoXRCameraTracking_m1243FCAD2AC9C4D5C2E551255A1B2BA266E12A52_ftn) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, bool);
-	static XRDevice_DisableAutoXRCameraTracking_m1243FCAD2AC9C4D5C2E551255A1B2BA266E12A52_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRDevice_DisableAutoXRCameraTracking_m1243FCAD2AC9C4D5C2E551255A1B2BA266E12A52_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking(UnityEngine.Camera,System.Boolean)");
-	_il2cpp_icall_func(___0_camera, ___1_disabled);
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNullCheck_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_TisArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_m7ED99139D029E1CBC5F8877FC79727793228D244_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA7F00519435FC33A7E48F0FCF6CB6D9B257C0DAA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_camera;
+		intptr_t L_1;
+		L_1 = MarshalledUnityObject_MarshalNullCheck_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_TisArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_m7ED99139D029E1CBC5F8877FC79727793228D244_inline(L_0, _stringLiteralA7F00519435FC33A7E48F0FCF6CB6D9B257C0DAA, MarshalledUnityObject_MarshalNullCheck_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_TisArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_m7ED99139D029E1CBC5F8877FC79727793228D244_RuntimeMethod_var);
+		bool L_2 = ___1_disabled;
+		XRDevice_DisableAutoXRCameraTracking_Injected_mFA485CB637DF2D2908DCEC6D92FE873214515FEE(L_1, L_2, NULL);
+		return;
+	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice_InvokeDeviceLoaded_mBE2198DE44A72E2F5059566C46B9907D82782790 (String_t* ___0_loadedDeviceName, const RuntimeMethod* method) 
 {
@@ -239,11 +266,84 @@ IL_001b:
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice_DisableAutoXRCameraTracking_Injected_mFA485CB637DF2D2908DCEC6D92FE873214515FEE (intptr_t ___0_camera, bool ___1_disabled, const RuntimeMethod* method) 
+{
+	typedef void (*XRDevice_DisableAutoXRCameraTracking_Injected_mFA485CB637DF2D2908DCEC6D92FE873214515FEE_ftn) (intptr_t, bool);
+	static XRDevice_DisableAutoXRCameraTracking_Injected_mFA485CB637DF2D2908DCEC6D92FE873214515FEE_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRDevice_DisableAutoXRCameraTracking_Injected_mFA485CB637DF2D2908DCEC6D92FE873214515FEE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking_Injected(System.IntPtr,System.Boolean)");
+	_il2cpp_icall_func(___0_camera, ___1_disabled);
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNullCheck_TisRuntimeObject_TisRuntimeObject_m5B85D44AFDA373770C5D32C4E251B01E6EF7AA79_gshared_inline (RuntimeObject* ___0_obj, String_t* ___1_parameterName, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
+	intptr_t V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		V_1 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		String_t* L_2 = ___1_parameterName;
+		MarshalledUnityObject_ThrowException_TisRuntimeObject_mC3DBAC17F28D80CBB0AB1758B97387C57ACD9D2B(L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+	}
+
+IL_0015:
+	{
+		RuntimeObject* L_3 = ___0_obj;
+		intptr_t L_4;
+		L_4 = MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8(L_3, il2cpp_rgctx_method(method->rgctx_data, 2));
+		V_0 = L_4;
+		intptr_t L_5 = V_0;
+		bool L_6;
+		L_6 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_5, 0, NULL);
+		V_2 = L_6;
+		bool L_7 = V_2;
+		if (!L_7)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		String_t* L_8 = ___1_parameterName;
+		MarshalledUnityObject_ThrowException_TisRuntimeObject_mC3DBAC17F28D80CBB0AB1758B97387C57ACD9D2B(L_8, il2cpp_rgctx_method(method->rgctx_data, 1));
+	}
+
+IL_0032:
+	{
+		intptr_t L_9 = V_0;
+		V_3 = L_9;
+		goto IL_0036;
+	}
+
+IL_0036:
+	{
+		intptr_t L_10 = V_3;
+		return L_10;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___0_value1;
+		intptr_t L_1 = ___1_value2;
+		return (bool)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0);
+	}
 }

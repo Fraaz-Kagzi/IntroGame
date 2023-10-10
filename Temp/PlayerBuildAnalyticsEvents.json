@@ -3,12 +3,12 @@
     {
       "type": "il2cppData",
       "msg": {
-        "build_event_id": "525d02793fb4c418cb0b068d6490fc6a",
+        "build_event_id": "926c2f492d2be42aca4be36a3623906f",
         "node_executed": true,
         "attribute_total_count_eager_static_constructor": 9,
         "attribute_total_count_set_option": 0,
         "attribute_total_count_generate_into_own_cpp_file": 0,
-        "attribute_total_count_ignore_by_deep_profiler": 18,
+        "attribute_total_count_ignore_by_deep_profiler": 19,
         "extra_types_total_count": 0,
         "option_extra_types_file_count": 0,
         "option_jobs": 8,
@@ -42,57 +42,57 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "525d02793fb4c418cb0b068d6490fc6a",
-        "build_player": 322712,
-        "preprocess_player": 72,
-        "produce_player_script_assemblies": 10458,
-        "build_scripts_dlls": 25,
+        "build_event_id": "926c2f492d2be42aca4be36a3623906f",
+        "build_player": 335530,
+        "preprocess_player": 29,
+        "produce_player_script_assemblies": 18957,
+        "build_scripts_dlls": 22,
         "writing_asset_files": 187,
-        "postprocess_built_player": 302372,
+        "postprocess_built_player": 307633,
         "node_summary_table": [
           {
             "name": "Csc",
-            "duration": 1293
+            "duration": 1014
           },
           {
             "name": "Csc",
-            "duration": 468
+            "duration": 4018
           },
           {
             "name": "Csc",
-            "duration": 1293
+            "duration": 3212
           },
           {
             "name": "Csc",
-            "duration": 967
+            "duration": 872
           },
           {
             "name": "Csc",
-            "duration": 1485
+            "duration": 656
           },
           {
             "name": "Csc",
-            "duration": 781
+            "duration": 284
           },
           {
             "name": "Csc",
-            "duration": 616
+            "duration": 255
           },
           {
             "name": "Csc",
-            "duration": 285
+            "duration": 3007
           },
           {
             "name": "Csc",
-            "duration": 257
-          },
-          {
-            "name": "UnityLinker.exe",
-            "duration": 5916
+            "duration": 872
           },
           {
             "name": "il2cpp.exe",
-            "duration": 7699
+            "duration": 7079
+          },
+          {
+            "name": "UnityLinker.exe",
+            "duration": 3611
           }
         ]
       },
@@ -101,7 +101,7 @@
     {
       "type": "unityLinkerData",
       "msg": {
-        "build_event_id": "525d02793fb4c418cb0b068d6490fc6a",
+        "build_event_id": "926c2f492d2be42aca4be36a3623906f",
         "node_executed": true,
         "attribute_marked_count_always_link_assembly": 0,
         "attribute_swept_count_always_link_assembly": 1,
@@ -109,9 +109,9 @@
         "attribute_marked_count_preserve": 25,
         "attribute_total_count_preserve": 19,
         "attribute_total_count_preserve_body": 0,
-        "attribute_marked_count_required_member": 13,
-        "attribute_swept_count_required_member": 9,
-        "attribute_total_count_required_member": 22,
+        "attribute_marked_count_required_member": 170,
+        "attribute_swept_count_required_member": 10,
+        "attribute_total_count_required_member": 180,
         "attribute_marked_count_require_derived": 0,
         "attribute_swept_count_require_derived": 0,
         "attribute_total_count_require_derived": 0,
@@ -119,24 +119,24 @@
         "attribute_swept_count_require_implementors": 0,
         "attribute_total_count_require_implementors": 0,
         "attribute_total_count_required_interface": 0,
-        "attribute_marked_count_require_attribute_usages": 0,
-        "attribute_total_count_require_attribute_usages": 1,
+        "attribute_marked_count_require_attribute_usages": 446,
+        "attribute_total_count_require_attribute_usages": 2,
         "attribute_total_count_dynamic_dependency": 0,
         "attribute_marked_count_dynamic_dependency": 11,
         "attribute_swept_count_dynamic_dependency": -11,
-        "assembly_counts_total_in": 88,
+        "assembly_counts_total_in": 91,
         "assembly_counts_link": 30,
         "assembly_counts_copy": 2,
-        "assembly_counts_delete": 56,
+        "assembly_counts_delete": 59,
         "assembly_counts_total_out": 32,
         "unresolved_stubbing_total_count": 0,
         "unresolved_stubbing_missing_interface_method_count": 0,
         "unresolved_stubbing_missing_abstract_class_method_count": 0,
         "unresolved_stubbing_missing_type_count": 0,
         "unresolved_stubbing_missing_method_count": 0,
-        "unrecognized_reflection_access_total_count": 266,
+        "unrecognized_reflection_access_total_count": 272,
         "unrecognized_reflection_access_core_count": 157,
-        "unrecognized_reflection_access_unity_count": 109,
+        "unrecognized_reflection_access_unity_count": 115,
         "unrecognized_reflection_access_user_count": 0,
         "recognized_reflection_access_total_count": 41,
         "recognized_reflection_access_core_count": 29,
@@ -151,9 +151,9 @@
         "link_xml_assembly_preserve_all_unity_count": 0,
         "link_xml_assembly_preserve_all_core_count": 0,
         "link_xml_assembly_preserve_all_user_count": 0,
-        "engine_module_total_in": 63,
-        "engine_module_deleted": 43,
-        "engine_module_total_out": 20,
+        "engine_module_total_in": 66,
+        "engine_module_deleted": 45,
+        "engine_module_total_out": 21,
         "option_rule_set": "Conservative",
         "option_enable_report": false,
         "option_enable_snapshot": false,

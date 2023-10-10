@@ -1,9 +1,4 @@
 ﻿#include "pch-c.h"
-#ifndef _MSC_VER
-# include <alloca.h>
-#else
-# include <malloc.h>
-#endif
 
 
 #include "codegen/il2cpp-codegen-metadata.h"
@@ -28,12 +23,12 @@ static Il2CppMethodPointer s_methodPointers[6] =
 };
 static const int32_t s_InvokerIndices[6] = 
 {
-	6834,
-	6334,
-	7384,
-	6834,
+	7110,
+	6604,
+	7688,
+	7110,
 	0,
-	6841,
+	7117,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {

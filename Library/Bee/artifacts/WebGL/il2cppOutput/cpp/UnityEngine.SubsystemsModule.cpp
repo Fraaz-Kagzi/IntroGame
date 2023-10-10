@@ -1,13 +1,7 @@
 ﻿#include "pch-cpp.hpp"
 
-#ifndef _MSC_VER
-# include <alloca.h>
-#else
-# include <malloc.h>
-#endif
 
 
-#include <limits>
 
 
 
@@ -462,7 +456,7 @@ inline void List_1__ctor_mE880513B25584D4B37E79F50BC3ACDD456E1BC20 (List_1_t9E8C
 	((  void (*) (List_1_t9E8CCD70A25458CE30A64503B35F06ECA62E3052*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemManager_StaticConstructScriptingClassMap_m350147EEDFABFFADB6541B807F1A94337F8E2337 (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271 (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
 inline void List_1_Add_m6B6700A3B4946F7E50020E1F0A6DA7FD0A2CBC0F_inline (List_1_tACFC79734710927A89702FFC38900223BB85B5A6* __this, IntegratedSubsystemDescriptor_t9232963B842E01748A8E032928DC8E35DF00C10D* ___0_item, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tACFC79734710927A89702FFC38900223BB85B5A6*, IntegratedSubsystemDescriptor_t9232963B842E01748A8E032928DC8E35DF00C10D*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
@@ -987,7 +981,7 @@ IL_000f_1:
 				intptr_t L_4 = L_3->___m_Ptr;
 				intptr_t L_5 = ___0_ptr;
 				bool L_6;
-				L_6 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_4, L_5, NULL);
+				L_6 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_4, L_5, NULL);
 				V_2 = L_6;
 				bool L_7 = V_2;
 				if (!L_7)
@@ -1238,6 +1232,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___0_value1;
+		intptr_t L_1 = ___1_value2;
+		return (bool)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0);
+	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {

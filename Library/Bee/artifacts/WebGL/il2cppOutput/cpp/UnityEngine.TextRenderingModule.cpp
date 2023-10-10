@@ -1,13 +1,7 @@
 ﻿#include "pch-cpp.hpp"
 
-#ifndef _MSC_VER
-# include <alloca.h>
-#else
-# include <malloc.h>
-#endif
 
 
-#include <limits>
 
 
 struct InterfaceActionInvoker0
@@ -68,6 +62,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteralEEEF4964BE1943E118BB297F57BDB9955C6DA372
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m220A7CFB07F883D427D782347E3CF8B68F1AFE03_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mA625F85B21CB389422393F709122327ED0BF7CA9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mD013968D6DAB756EA34E138E00BEF8922909C1BE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MarshalledUnityObject_Marshal_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mB868F704970A936F66A179C77DCC21276A251CA6_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3;;
@@ -646,7 +642,10 @@ IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mD013968D6DAB756EA34E138E00BEF8922909C1BE_gshared (List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m220A7CFB07F883D427D782347E3CF8B68F1AFE03_gshared (List_1_t67A1600A303BB89506DFD21B59687088B7E0675B* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mA625F85B21CB389422393F709122327ED0BF7CA9_gshared (List_1_t9209B29AC606399207E97BDCD817DEA5B6C63CA5* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_Marshal_TisRuntimeObject_m286B34400A212037E8EBD53DBFEAD7D23CDE8051_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNullCheck_TisRuntimeObject_mE9D8E3BDC00D7A3A60E1FA4A2E99F670377AD591_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8_gshared (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerationSettings_CompareColors_m29E454405FB3871CA77CC7F94DAB1B4320BD5E53 (TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_left, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_right, const RuntimeMethod* method) ;
@@ -669,7 +668,7 @@ inline void List_1__ctor_mA625F85B21CB389422393F709122327ED0BF7CA9 (List_1_t9209
 	((  void (*) (List_1_t9209B29AC606399207E97BDCD817DEA5B6C63CA5*, int32_t, const RuntimeMethod*))List_1__ctor_mA625F85B21CB389422393F709122327ED0BF7CA9_gshared)(__this, ___0_capacity, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2 (RuntimeObject* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_Internal_Destroy_m0AE3865A6886503BAE5798E6D9899EF59A0285A7 (intptr_t ___0_ptr, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TextGenerator_get_characterCount_mD4FD13BBBEDA2AB495C045160693754E4C106FFF (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
@@ -692,8 +691,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_m4DF9087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GetVertices_m97C7D4CB9B122A10BA5921BC38F83A245EB1B97E (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* ___0_vertices, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GetCharacters_mB7956402E0C66D9F9D51A3ADFCA84BE83BB54D90 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, List_1_t67A1600A303BB89506DFD21B59687088B7E0675B* ___0_characters, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GetLines_mFA8508172C251E1E4BBB1FBB734C82C81EF9330F (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, List_1_t9209B29AC606399207E97BDCD817DEA5B6C63CA5* ___0_lines, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_get_rectExtents_Injected_m2AB029C462FB27B9643C3EA2EB345E0EB011B2B8 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___0_ret, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_Injected_m694EA7CA7449D60B16643460DA13ABC6BE0F2947 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, String_t* ___0_str, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___1_font, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___2_color, int32_t ___3_fontSize, float ___4_scaleFactor, float ___5_lineSpacing, int32_t ___6_style, bool ___7_richText, bool ___8_resizeTextForBestFit, int32_t ___9_resizeTextMinSize, int32_t ___10_resizeTextMaxSize, int32_t ___11_verticalOverFlow, int32_t ___12_horizontalOverflow, bool ___13_updateBounds, int32_t ___14_anchor, float ___15_extentsX, float ___16_extentsY, float ___17_pivotX, float ___18_pivotY, bool ___19_generateOutOfBounds, bool ___20_alignByGeometry, uint32_t* ___21_error, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_get_rectExtents_Injected_mF07A2C5EBE0A6F338F9B9990AAC50D523F315A60 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___0__unity_self, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___1_ret, const RuntimeMethod* method) ;
+inline intptr_t MarshalledUnityObject_Marshal_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mB868F704970A936F66A179C77DCC21276A251CA6_inline (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_obj, const RuntimeMethod* method)
+{
+	return ((  intptr_t (*) (Font_tC95270EA3198038970422D78B74A7F2E218A96B6*, const RuntimeMethod*))MarshalledUnityObject_Marshal_TisRuntimeObject_m286B34400A212037E8EBD53DBFEAD7D23CDE8051_gshared_inline)(___0_obj, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_Injected_m278AA1F125A3163B83D2906467371AA4638CD3E9 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___0__unity_self, String_t* ___1_str, intptr_t ___2_font, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___3_color, int32_t ___4_fontSize, float ___5_scaleFactor, float ___6_lineSpacing, int32_t ___7_style, bool ___8_richText, bool ___9_resizeTextForBestFit, int32_t ___10_resizeTextMinSize, int32_t ___11_resizeTextMaxSize, int32_t ___12_verticalOverFlow, int32_t ___13_horizontalOverflow, bool ___14_updateBounds, int32_t ___15_anchor, float ___16_extentsX, float ___17_extentsY, float ___18_pivotX, float ___19_pivotY, bool ___20_generateOutOfBounds, bool ___21_alignByGeometry, uint32_t* ___22_error, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_m74A216D58183B4069BFBD6CDF624CB97A9EC4CAA (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, String_t* ___0_str, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___1_font, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_color, int32_t ___3_fontSize, float ___4_scaleFactor, float ___5_lineSpacing, int32_t ___6_style, bool ___7_richText, bool ___8_resizeTextForBestFit, int32_t ___9_resizeTextMinSize, int32_t ___10_resizeTextMaxSize, int32_t ___11_verticalOverFlow, int32_t ___12_horizontalOverflow, bool ___13_updateBounds, int32_t ___14_anchor, float ___15_extentsX, float ___16_extentsY, float ___17_pivotX, float ___18_pivotY, bool ___19_generateOutOfBounds, bool ___20_alignByGeometry, uint32_t* ___21_error, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* __this, uint8_t ___0_r, uint8_t ___1_g, uint8_t ___2_b, uint8_t ___3_a, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
@@ -702,13 +705,29 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+inline intptr_t MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_inline (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_obj, const RuntimeMethod* method)
+{
+	return ((  intptr_t (*) (Font_tC95270EA3198038970422D78B74A7F2E218A96B6*, const RuntimeMethod*))MarshalledUnityObject_MarshalNullCheck_TisRuntimeObject_mE9D8E3BDC00D7A3A60E1FA4A2E99F670377AD591_gshared_inline)(___0_obj, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Font_get_material_Injected_m3C1EF7675B136EE979BF29B24AE76C7CDC7C3E21 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_get_dynamic_Injected_mE1610EDFBB9092E562D21E9FC5A4AAFA89696690 (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Font_get_fontSize_Injected_m34A9893F1D744CC3CE823AE7BF0902957C8A268E (intptr_t ___0__unity_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m2149FA40CEC8D82AC20D3508AB40C0D8EFEF68E6 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_self, String_t* ___1_name, const RuntimeMethod* method) ;
 inline void Action_1_Invoke_mF7CAC85021DFCE6516FAD20C0421A1AF389A3D3E_inline (Action_1_tD91E4D0ED3C2E385D3BDD4B3EA48B5F99D39F1DC* __this, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_obj, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_tD91E4D0ED3C2E385D3BDD4B3EA48B5F99D39F1DC*, Font_tC95270EA3198038970422D78B74A7F2E218A96B6*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FontTextureRebuildCallback_Invoke_m8B52C3F4823ADBB80062209E6BA2B33202AE958D_inline (FontTextureRebuildCallback_t76D5E172DF8AA57E67763D453AAC40F0961D09B1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_HasCharacter_mAB838A26F002CB5E4B4DB297F7D6836A28625B18 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, int32_t ___0_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_HasCharacter_Injected_mCCBE7842CC556C3C1693FA8148B1928B5321151B (intptr_t ___0__unity_self, int32_t ___1_c, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+inline intptr_t MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8 (RuntimeObject* ___0_obj, const RuntimeMethod* method)
+{
+	return ((  intptr_t (*) (RuntimeObject*, const RuntimeMethod*))MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8_gshared)(___0_obj, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarshalledUnityObject_ThrowNullExceptionObjectImpl_m0B0472D5401B7B6F252BED216DF55C4C67FB36DA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1201,7 +1220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_System_IDisposable_Dispose
 	{
 		intptr_t L_0 = __this->___m_Ptr;
 		bool L_1;
-		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B(L_0, 0, NULL);
+		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -1850,7 +1869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		TextGenerator_get_rectExtents_Injected_m2AB029C462FB27B9643C3EA2EB345E0EB011B2B8(__this, (&V_0), NULL);
+		TextGenerator_get_rectExtents_Injected_mF07A2C5EBE0A6F338F9B9990AAC50D523F315A60(__this, (&V_0), NULL);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = V_0;
 		return L_0;
 	}
@@ -1892,31 +1911,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_Internal_Destroy_m0AE3865A
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_m74A216D58183B4069BFBD6CDF624CB97A9EC4CAA (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, String_t* ___0_str, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___1_font, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_color, int32_t ___3_fontSize, float ___4_scaleFactor, float ___5_lineSpacing, int32_t ___6_style, bool ___7_richText, bool ___8_resizeTextForBestFit, int32_t ___9_resizeTextMinSize, int32_t ___10_resizeTextMaxSize, int32_t ___11_verticalOverFlow, int32_t ___12_horizontalOverflow, bool ___13_updateBounds, int32_t ___14_anchor, float ___15_extentsX, float ___16_extentsY, float ___17_pivotX, float ___18_pivotY, bool ___19_generateOutOfBounds, bool ___20_alignByGeometry, uint32_t* ___21_error, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_Marshal_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mB868F704970A936F66A179C77DCC21276A251CA6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		String_t* L_0 = ___0_str;
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_1 = ___1_font;
-		int32_t L_2 = ___3_fontSize;
-		float L_3 = ___4_scaleFactor;
-		float L_4 = ___5_lineSpacing;
-		int32_t L_5 = ___6_style;
-		bool L_6 = ___7_richText;
-		bool L_7 = ___8_resizeTextForBestFit;
-		int32_t L_8 = ___9_resizeTextMinSize;
-		int32_t L_9 = ___10_resizeTextMaxSize;
-		int32_t L_10 = ___11_verticalOverFlow;
-		int32_t L_11 = ___12_horizontalOverflow;
-		bool L_12 = ___13_updateBounds;
-		int32_t L_13 = ___14_anchor;
-		float L_14 = ___15_extentsX;
-		float L_15 = ___16_extentsY;
-		float L_16 = ___17_pivotX;
-		float L_17 = ___18_pivotY;
-		bool L_18 = ___19_generateOutOfBounds;
-		bool L_19 = ___20_alignByGeometry;
-		uint32_t* L_20 = ___21_error;
-		bool L_21;
-		L_21 = TextGenerator_Populate_Internal_Injected_m694EA7CA7449D60B16643460DA13ABC6BE0F2947(__this, L_0, L_1, (&___2_color), L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_16, L_17, L_18, L_19, L_20, NULL);
-		return L_21;
+		intptr_t L_2;
+		L_2 = MarshalledUnityObject_Marshal_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mB868F704970A936F66A179C77DCC21276A251CA6_inline(L_1, MarshalledUnityObject_Marshal_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mB868F704970A936F66A179C77DCC21276A251CA6_RuntimeMethod_var);
+		int32_t L_3 = ___3_fontSize;
+		float L_4 = ___4_scaleFactor;
+		float L_5 = ___5_lineSpacing;
+		int32_t L_6 = ___6_style;
+		bool L_7 = ___7_richText;
+		bool L_8 = ___8_resizeTextForBestFit;
+		int32_t L_9 = ___9_resizeTextMinSize;
+		int32_t L_10 = ___10_resizeTextMaxSize;
+		int32_t L_11 = ___11_verticalOverFlow;
+		int32_t L_12 = ___12_horizontalOverflow;
+		bool L_13 = ___13_updateBounds;
+		int32_t L_14 = ___14_anchor;
+		float L_15 = ___15_extentsX;
+		float L_16 = ___16_extentsY;
+		float L_17 = ___17_pivotX;
+		float L_18 = ___18_pivotY;
+		bool L_19 = ___19_generateOutOfBounds;
+		bool L_20 = ___20_alignByGeometry;
+		uint32_t* L_21 = ___21_error;
+		bool L_22;
+		L_22 = TextGenerator_Populate_Internal_Injected_m278AA1F125A3163B83D2906467371AA4638CD3E9(__this, L_0, L_2, (&___2_color), L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, L_13, L_14, L_15, L_16, L_17, L_18, L_19, L_20, L_21, NULL);
+		return L_22;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_m4DF908756A1AC26B04AC8AB12A004203366B294B (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, String_t* ___0_str, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___1_font, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_color, int32_t ___3_fontSize, float ___4_scaleFactor, float ___5_lineSpacing, int32_t ___6_style, bool ___7_richText, bool ___8_resizeTextForBestFit, int32_t ___9_resizeTextMinSize, int32_t ___10_resizeTextMaxSize, int32_t ___11_verticalOverFlow, int32_t ___12_horizontalOverflow, bool ___13_updateBounds, int32_t ___14_anchor, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___15_extents, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___16_pivot, bool ___17_generateOutOfBounds, bool ___18_alignByGeometry, int32_t* ___19_error, const RuntimeMethod* method) 
@@ -2019,21 +2046,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GetLinesInternal_mDAC83E88
 	_il2cpp_icall_func = (TextGenerator_GetLinesInternal_mDAC83E88FD1FD79CCCE294E49E02ED748CFC8E12_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextGenerator::GetLinesInternal(System.Object)");
 	_il2cpp_icall_func(__this, ___0_lines);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_get_rectExtents_Injected_m2AB029C462FB27B9643C3EA2EB345E0EB011B2B8 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___0_ret, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_get_rectExtents_Injected_mF07A2C5EBE0A6F338F9B9990AAC50D523F315A60 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___0__unity_self, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___1_ret, const RuntimeMethod* method) 
 {
-	typedef void (*TextGenerator_get_rectExtents_Injected_m2AB029C462FB27B9643C3EA2EB345E0EB011B2B8_ftn) (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*);
-	static TextGenerator_get_rectExtents_Injected_m2AB029C462FB27B9643C3EA2EB345E0EB011B2B8_ftn _il2cpp_icall_func;
+	typedef void (*TextGenerator_get_rectExtents_Injected_mF07A2C5EBE0A6F338F9B9990AAC50D523F315A60_ftn) (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*);
+	static TextGenerator_get_rectExtents_Injected_mF07A2C5EBE0A6F338F9B9990AAC50D523F315A60_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TextGenerator_get_rectExtents_Injected_m2AB029C462FB27B9643C3EA2EB345E0EB011B2B8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextGenerator::get_rectExtents_Injected(UnityEngine.Rect&)");
-	_il2cpp_icall_func(__this, ___0_ret);
+	_il2cpp_icall_func = (TextGenerator_get_rectExtents_Injected_mF07A2C5EBE0A6F338F9B9990AAC50D523F315A60_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextGenerator::get_rectExtents_Injected(UnityEngine.TextGenerator,UnityEngine.Rect&)");
+	_il2cpp_icall_func(___0__unity_self, ___1_ret);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_Injected_m694EA7CA7449D60B16643460DA13ABC6BE0F2947 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* __this, String_t* ___0_str, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___1_font, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___2_color, int32_t ___3_fontSize, float ___4_scaleFactor, float ___5_lineSpacing, int32_t ___6_style, bool ___7_richText, bool ___8_resizeTextForBestFit, int32_t ___9_resizeTextMinSize, int32_t ___10_resizeTextMaxSize, int32_t ___11_verticalOverFlow, int32_t ___12_horizontalOverflow, bool ___13_updateBounds, int32_t ___14_anchor, float ___15_extentsX, float ___16_extentsY, float ___17_pivotX, float ___18_pivotY, bool ___19_generateOutOfBounds, bool ___20_alignByGeometry, uint32_t* ___21_error, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_Injected_m278AA1F125A3163B83D2906467371AA4638CD3E9 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___0__unity_self, String_t* ___1_str, intptr_t ___2_font, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___3_color, int32_t ___4_fontSize, float ___5_scaleFactor, float ___6_lineSpacing, int32_t ___7_style, bool ___8_richText, bool ___9_resizeTextForBestFit, int32_t ___10_resizeTextMinSize, int32_t ___11_resizeTextMaxSize, int32_t ___12_verticalOverFlow, int32_t ___13_horizontalOverflow, bool ___14_updateBounds, int32_t ___15_anchor, float ___16_extentsX, float ___17_extentsY, float ___18_pivotX, float ___19_pivotY, bool ___20_generateOutOfBounds, bool ___21_alignByGeometry, uint32_t* ___22_error, const RuntimeMethod* method) 
 {
-	typedef bool (*TextGenerator_Populate_Internal_Injected_m694EA7CA7449D60B16643460DA13ABC6BE0F2947_ftn) (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC*, String_t*, Font_tC95270EA3198038970422D78B74A7F2E218A96B6*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, int32_t, float, float, int32_t, bool, bool, int32_t, int32_t, int32_t, int32_t, bool, int32_t, float, float, float, float, bool, bool, uint32_t*);
-	static TextGenerator_Populate_Internal_Injected_m694EA7CA7449D60B16643460DA13ABC6BE0F2947_ftn _il2cpp_icall_func;
+	typedef bool (*TextGenerator_Populate_Internal_Injected_m278AA1F125A3163B83D2906467371AA4638CD3E9_ftn) (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC*, String_t*, intptr_t, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, int32_t, float, float, int32_t, bool, bool, int32_t, int32_t, int32_t, int32_t, bool, int32_t, float, float, float, float, bool, bool, uint32_t*);
+	static TextGenerator_Populate_Internal_Injected_m278AA1F125A3163B83D2906467371AA4638CD3E9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TextGenerator_Populate_Internal_Injected_m694EA7CA7449D60B16643460DA13ABC6BE0F2947_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextGenerator::Populate_Internal_Injected(System.String,UnityEngine.Font,UnityEngine.Color&,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.TextAnchor,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.UInt32&)");
-	bool icallRetVal = _il2cpp_icall_func(__this, ___0_str, ___1_font, ___2_color, ___3_fontSize, ___4_scaleFactor, ___5_lineSpacing, ___6_style, ___7_richText, ___8_resizeTextForBestFit, ___9_resizeTextMinSize, ___10_resizeTextMaxSize, ___11_verticalOverFlow, ___12_horizontalOverflow, ___13_updateBounds, ___14_anchor, ___15_extentsX, ___16_extentsY, ___17_pivotX, ___18_pivotY, ___19_generateOutOfBounds, ___20_alignByGeometry, ___21_error);
+	_il2cpp_icall_func = (TextGenerator_Populate_Internal_Injected_m278AA1F125A3163B83D2906467371AA4638CD3E9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextGenerator::Populate_Internal_Injected(UnityEngine.TextGenerator,System.String,System.IntPtr,UnityEngine.Color&,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.TextAnchor,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.UInt32&)");
+	bool icallRetVal = _il2cpp_icall_func(___0__unity_self, ___1_str, ___2_font, ___3_color, ___4_fontSize, ___5_scaleFactor, ___6_lineSpacing, ___7_style, ___8_richText, ___9_resizeTextForBestFit, ___10_resizeTextMinSize, ___11_resizeTextMaxSize, ___12_verticalOverFlow, ___13_horizontalOverflow, ___14_updateBounds, ___15_anchor, ___16_extentsX, ___17_extentsY, ___18_pivotX, ___19_pivotY, ___20_generateOutOfBounds, ___21_alignByGeometry, ___22_error);
 	return icallRetVal;
 }
 #ifdef __clang__
@@ -2201,30 +2228,66 @@ IL_0006:
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Font_get_material_m61ABDEC14C6D659DDC5A4F080023699116C17364 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, const RuntimeMethod* method) 
 {
-	typedef Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* (*Font_get_material_m61ABDEC14C6D659DDC5A4F080023699116C17364_ftn) (Font_tC95270EA3198038970422D78B74A7F2E218A96B6*);
-	static Font_get_material_m61ABDEC14C6D659DDC5A4F080023699116C17364_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_get_material_m61ABDEC14C6D659DDC5A4F080023699116C17364_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_material()");
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0;
+		L_0 = MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_inline(__this, MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
+		L_1 = Font_get_material_Injected_m3C1EF7675B136EE979BF29B24AE76C7CDC7C3E21(L_0, NULL);
+		return L_1;
+	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_get_dynamic_m5231258BFEAABA3B3EA6AB5D8C2FDCBC2AD1371C (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, const RuntimeMethod* method) 
 {
-	typedef bool (*Font_get_dynamic_m5231258BFEAABA3B3EA6AB5D8C2FDCBC2AD1371C_ftn) (Font_tC95270EA3198038970422D78B74A7F2E218A96B6*);
-	static Font_get_dynamic_m5231258BFEAABA3B3EA6AB5D8C2FDCBC2AD1371C_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_get_dynamic_m5231258BFEAABA3B3EA6AB5D8C2FDCBC2AD1371C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_dynamic()");
-	bool icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0;
+		L_0 = MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_inline(__this, MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var);
+		bool L_1;
+		L_1 = Font_get_dynamic_Injected_mE1610EDFBB9092E562D21E9FC5A4AAFA89696690(L_0, NULL);
+		return L_1;
+	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Font_get_fontSize_m02C2F5C7A7C89A878F04C2087248DD46BBF9E26B (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, const RuntimeMethod* method) 
 {
-	typedef int32_t (*Font_get_fontSize_m02C2F5C7A7C89A878F04C2087248DD46BBF9E26B_ftn) (Font_tC95270EA3198038970422D78B74A7F2E218A96B6*);
-	static Font_get_fontSize_m02C2F5C7A7C89A878F04C2087248DD46BBF9E26B_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_get_fontSize_m02C2F5C7A7C89A878F04C2087248DD46BBF9E26B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_fontSize()");
-	int32_t icallRetVal = _il2cpp_icall_func(__this);
-	return icallRetVal;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0;
+		L_0 = MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_inline(__this, MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var);
+		int32_t L_1;
+		L_1 = Font_get_fontSize_Injected_m34A9893F1D744CC3CE823AE7BF0902957C8A268E(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font__ctor_m9106C7F312AE77F6721001A5A3143951201AC841 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object__ctor_m2149FA40CEC8D82AC20D3508AB40C0D8EFEF68E6(__this, NULL);
+		Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1(__this, (String_t*)NULL, NULL);
+		return;
+	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font_InvokeTextureRebuilt_Internal_m874D1025267C908E5FCD437B41929E4DE248B01B (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_font, const RuntimeMethod* method) 
 {
@@ -2303,11 +2366,63 @@ IL_000b:
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_HasCharacter_mAB838A26F002CB5E4B4DB297F7D6836A28625B18 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, int32_t ___0_c, const RuntimeMethod* method) 
 {
-	typedef bool (*Font_HasCharacter_mAB838A26F002CB5E4B4DB297F7D6836A28625B18_ftn) (Font_tC95270EA3198038970422D78B74A7F2E218A96B6*, int32_t);
-	static Font_HasCharacter_mAB838A26F002CB5E4B4DB297F7D6836A28625B18_ftn _il2cpp_icall_func;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0;
+		L_0 = MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_inline(__this, MarshalledUnityObject_MarshalNullCheck_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_mE5010893EB15BD1F6D4FA8868B815E6B74009790_RuntimeMethod_var);
+		int32_t L_1 = ___0_c;
+		bool L_2;
+		L_2 = Font_HasCharacter_Injected_mCCBE7842CC556C3C1693FA8148B1928B5321151B(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_self, String_t* ___1_name, const RuntimeMethod* method) 
+{
+	typedef void (*Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1_ftn) (Font_tC95270EA3198038970422D78B74A7F2E218A96B6*, String_t*);
+	static Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_HasCharacter_mAB838A26F002CB5E4B4DB297F7D6836A28625B18_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::HasCharacter(System.Int32)");
-	bool icallRetVal = _il2cpp_icall_func(__this, ___0_c);
+	_il2cpp_icall_func = (Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::Internal_CreateFont(UnityEngine.Font,System.String)");
+	_il2cpp_icall_func(___0_self, ___1_name);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Font_get_material_Injected_m3C1EF7675B136EE979BF29B24AE76C7CDC7C3E21 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
+{
+	typedef Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* (*Font_get_material_Injected_m3C1EF7675B136EE979BF29B24AE76C7CDC7C3E21_ftn) (intptr_t);
+	static Font_get_material_Injected_m3C1EF7675B136EE979BF29B24AE76C7CDC7C3E21_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Font_get_material_Injected_m3C1EF7675B136EE979BF29B24AE76C7CDC7C3E21_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_material_Injected(System.IntPtr)");
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* icallRetVal = _il2cpp_icall_func(___0__unity_self);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_get_dynamic_Injected_mE1610EDFBB9092E562D21E9FC5A4AAFA89696690 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
+{
+	typedef bool (*Font_get_dynamic_Injected_mE1610EDFBB9092E562D21E9FC5A4AAFA89696690_ftn) (intptr_t);
+	static Font_get_dynamic_Injected_mE1610EDFBB9092E562D21E9FC5A4AAFA89696690_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Font_get_dynamic_Injected_mE1610EDFBB9092E562D21E9FC5A4AAFA89696690_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_dynamic_Injected(System.IntPtr)");
+	bool icallRetVal = _il2cpp_icall_func(___0__unity_self);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Font_get_fontSize_Injected_m34A9893F1D744CC3CE823AE7BF0902957C8A268E (intptr_t ___0__unity_self, const RuntimeMethod* method) 
+{
+	typedef int32_t (*Font_get_fontSize_Injected_m34A9893F1D744CC3CE823AE7BF0902957C8A268E_ftn) (intptr_t);
+	static Font_get_fontSize_Injected_m34A9893F1D744CC3CE823AE7BF0902957C8A268E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Font_get_fontSize_Injected_m34A9893F1D744CC3CE823AE7BF0902957C8A268E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::get_fontSize_Injected(System.IntPtr)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0__unity_self);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_HasCharacter_Injected_mCCBE7842CC556C3C1693FA8148B1928B5321151B (intptr_t ___0__unity_self, int32_t ___1_c, const RuntimeMethod* method) 
+{
+	typedef bool (*Font_HasCharacter_Injected_mCCBE7842CC556C3C1693FA8148B1928B5321151B_ftn) (intptr_t, int32_t);
+	static Font_HasCharacter_Injected_mCCBE7842CC556C3C1693FA8148B1928B5321151B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Font_HasCharacter_Injected_mCCBE7842CC556C3C1693FA8148B1928B5321151B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::HasCharacter_Injected(System.IntPtr,System.Int32)");
+	bool icallRetVal = _il2cpp_icall_func(___0__unity_self, ___1_c);
 	return icallRetVal;
 }
 #ifdef __clang__
@@ -2415,6 +2530,14 @@ IL_0035:
 	{
 		bool L_10 = V_0;
 		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___0_value1;
+		intptr_t L_1 = ___1_value2;
+		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
@@ -2547,6 +2670,82 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FontTextureRebuildCallback_I
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_Marshal_TisRuntimeObject_m286B34400A212037E8EBD53DBFEAD7D23CDE8051_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	bool V_0 = false;
+	intptr_t V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_001f;
+	}
+
+IL_0016:
+	{
+		RuntimeObject* L_2 = ___0_obj;
+		intptr_t L_3;
+		L_3 = MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8(L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
+		V_1 = L_3;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNullCheck_TisRuntimeObject_mE9D8E3BDC00D7A3A60E1FA4A2E99F670377AD591_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	intptr_t V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		intptr_t L_1;
+		L_1 = MarshalledUnityObject_MarshalAssumeNotNull_TisRuntimeObject_mD84E5590A5E0365B7ACAD57178881B650E59C8F8(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
+		V_0 = L_1;
+		intptr_t L_2 = V_0;
+		bool L_3;
+		L_3 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_2, 0, NULL);
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		RuntimeObject* L_5 = ___0_obj;
+		MarshalledUnityObject_ThrowNullExceptionObjectImpl_m0B0472D5401B7B6F252BED216DF55C4C67FB36DA(L_5, NULL);
+	}
+
+IL_0023:
+	{
+		intptr_t L_6 = V_0;
+		V_2 = L_6;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		intptr_t L_7 = V_2;
+		return L_7;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -2586,5 +2785,13 @@ IL_000c:
 	{
 		float L_4 = V_0;
 		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = ___0_value1;
+		intptr_t L_1 = ___1_value2;
+		return (bool)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0);
 	}
 }

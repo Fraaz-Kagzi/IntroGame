@@ -1,10 +1,5 @@
 ﻿#include "pch-cpp.hpp"
 
-#ifndef _MSC_VER
-# include <alloca.h>
-#else
-# include <malloc.h>
-#endif
 
 
 
@@ -93,18 +88,18 @@ const Il2CppCodeGenModule* g_CodeGenModules[33] =
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	2,
+	4,
 	g_ReversePInvokeWrapperPointers,
-	35786,
+	41074,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	7754,
+	8104,
 	g_Il2CppInvokerPointers,
-	1555,
+	1635,
 	g_UnresolvedVirtualMethodPointers,
 	g_UnresolvedInstanceMethodPointers,
 	g_UnresolvedStaticMethodPointers,
-	426,
+	440,
 	g_Il2CppInteropData,
 	0,
 	NULL,
